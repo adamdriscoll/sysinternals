@@ -4,12 +4,16 @@ PowerShell Crescendo module for SysInternals tools.
 
 # Installation 
 
-This module does not include the commands that it wraps. You can install them with scoop.
+This module does not include the commands that it wraps. You can install them with scoop or Chocolatey.
 
 ```powershell
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 scoop bucket add extras
 scoop install sysinternals
+```
+
+```powershell
+choco install sysinternals
 ```
 
 This module is currently not published to the PowerShell Gallery. 
