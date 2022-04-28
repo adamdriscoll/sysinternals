@@ -12,11 +12,7 @@ scoop bucket add extras
 scoop install sysinternals
 ```
 
-Then you can install this module. 
-
-```powershell
-Install-Module SysInternals
-```
+This module is currently not published to the PowerShell Gallery. 
 
 # Commands
 ## Get-LogonSession ([logonsessions.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/logonsessions))
