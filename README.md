@@ -31,6 +31,12 @@ Get-LogonSession [<CommonParameters>]
 Find-Handle [[-Name] <string>] [[-Process] <string>] [<CommonParameters>]
 ```
 
+## Show-ClockResolution ([clockres.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/clockres))
+
+```powershell
+Show-ClockResolution [<CommonParameters>]
+```
+
 ## Show-CoreInfo ([coreinfo.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/coreinfo))
 
 ```powershell
@@ -49,10 +55,22 @@ Show-Dll [[-Name] <string>] [[-Process] <string>] [<CommonParameters>]
 Show-LoggedOnAccount [[-ComputerName] <string>] [[-User] <string>] [-Local] [-NoLogonTimes] [<CommonParameters>]
 ```
 
+## Show-NamedPipe ([pipelist.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/pipelist))
+
+```powershell
+Show-NamedPipe [<CommonParameters>]
+```
+
 ## Start-PsExec ([psexec.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec))
 
 ```powershell
 Start-PsExec [[-ComputerName] <string>] [[-Command] <string>] [[-Arguments] <string>] [-System] [<CommonParameters>]
+```
+
+## Sync-Disk ([sync.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/sync))
+
+```powershell
+Sync-Disk [[-Drive] <string>] [-FlushRemovableDrive] [-EjectRemovableDrive] [<CommonParameters>]
 ```
 
 # Contributing
