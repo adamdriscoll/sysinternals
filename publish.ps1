@@ -1,2 +1,2 @@
-Rename-Item "$PSScriptRoot\output" "$PSScriptRoot\SysInternals" 
+Rename-Item "$PSScriptRoot\output" -NewName "SysInternals" 
 Publish-Module -Path "$PSScriptRoot\SysInternals" -NuGetApiKey $Env:NuGetApiKey
