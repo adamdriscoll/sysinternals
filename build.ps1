@@ -55,6 +55,15 @@ $Commands = Get-ChildItem "$PSScriptRoot\src" | ForEach-Object {
 
 Export-CrescendoModule -ConfigurationFile (Get-ChildItem "$obj") -ModuleName (Join-Path $Output "SysInternals") -Force 
 
-Update-ModuleManifest -Path (Join-Path $Output "SysInternals.psd1") -ModuleVersion $Version
+$ManifestInfo = @{
+    ModuleVersion = $Version
+    Author        = "Adam Driscoll"
+    Company       = 'Ironman Software'
+    Description   = 'PowerShell cmdlets for SysInternal tools'
+    LicenseUri    = 'https://github.com/adamdriscoll/sysinternals/blob/main/LICENSE'
+    ProjectUri    = 'https://github.com/adamdriscoll/sysinternals'
+}
+
+Update-ModuleManifest -Path (Join-Path $Output "SysInternals.psd1") @ManifestInfo 
 
 Invoke-Pester -Path "$PSScriptRoot\tests"

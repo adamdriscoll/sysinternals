@@ -16,7 +16,12 @@ scoop install sysinternals
 choco install sysinternals
 ```
 
-This module is currently not published to the PowerShell Gallery. 
+To install this module: 
+
+```powershell
+Install-Module SysInternals
+```
+
 
 # Commands
 ## Get-LogonSession ([logonsessions.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/logonsessions))
