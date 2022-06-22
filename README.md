@@ -2,6 +2,8 @@
 
 PowerShell Crescendo module for SysInternals tools.
 
+![](https://img.shields.io/powershellgallery/dt/sysinternals?style=for-the-badge)
+
 # Installation 
 
 This module does not include the commands that it wraps. You can install them with scoop or Chocolatey.
