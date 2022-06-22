@@ -1,6 +1,6 @@
 $Output = "$PSScriptRoot\output"
 $obj = "$PSScriptRoot\obj"
-$Version = '1.0.0'
+$Version = '1.0.1'
 
 Remove-Item $Output -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item $obj -Recurse -Force -ErrorAction SilentlyContinue

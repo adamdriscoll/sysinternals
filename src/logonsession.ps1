@@ -2,7 +2,7 @@
     Verb                    = 'Get'
     Noun                    = 'LogonSession'
     OriginalName            = 'logonsessions.exe'
-    OriginalCommandElements = @("--nobanner", "--accepteula", "-c")
+    OriginalCommandElements = @("-nobanner", "-c")
     OutputHandlers          = @(
         @{
             ParameterSetName = 'Default'
