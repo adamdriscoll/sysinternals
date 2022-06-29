@@ -102,4 +102,4 @@ For example, the `Get-LogonSession` cmdlet is defined using this hashtable.
 }
 ```
 
-To build and test the module, run `build.ps1`. 
+To build and test the module, run `build.ps1`. Please note you will need Powershell 7 to run the build.ps1
