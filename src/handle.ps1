@@ -14,5 +14,20 @@
             Name          = "Process"
             OriginalName  = "-p"
         }
+        @{
+            ParameterType = 'Switch'
+            Name          = "UserName"
+            OriginalName  = "-u"
+        }
+        @{
+            ParameterType = 'String'
+            Name          = "Close"
+            OriginalName  = "-c"
+        }
+        @{
+            ParameterType = 'Switch'
+            Name          = "NoPrompt"
+            OriginalName  = "-y"
+        }
     )
 }
